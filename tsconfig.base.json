@@ -1,0 +1,45 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nx-auth-demo/back-office/auth/data-access": [
+        "libs/back-office/auth/data-access/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/auth/feature/login": [
+        "libs/back-office/auth/feature/login/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/auth/feature/shell": [
+        "libs/back-office/auth/feature/shell/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/auth/utils": [
+        "libs/back-office/auth/utils/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/shell/feature": [
+        "libs/back-office/shell/feature/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/shell/ui": [
+        "libs/back-office/shell/ui/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/test/utils/sub1": [
+        "libs/back-office/test/utils/sub1/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/test/utils/sub2": [
+        "libs/back-office/test/utils/sub2/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
