@@ -27,6 +27,12 @@
       "@nx-auth-demo/back-office/auth/utils": [
         "libs/back-office/auth/utils/src/index.ts"
       ],
+      "@nx-auth-demo/back-office/customer-manager/feature/main": [
+        "libs/back-office/customer-manager/feature/main/src/index.ts"
+      ],
+      "@nx-auth-demo/back-office/customer-manager/feature/shell": [
+        "libs/back-office/customer-manager/feature/shell/src/index.ts"
+      ],
       "@nx-auth-demo/back-office/shell/feature": [
         "libs/back-office/shell/feature/src/index.ts"
       ],

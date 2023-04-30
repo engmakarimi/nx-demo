@@ -1,7 +1,7 @@
 import { Route } from "@angular/router";
 
 
-export const Auth_Route: Route[] = [
+export const Auth_Route :Route[] = [
     {
       path: '',
       children: [
@@ -19,4 +19,4 @@ export const Auth_Route: Route[] = [
     //     registerFeatureEffects([MusiciansApiEffects]),
     //   ],
     },
-  ];
+  ] ;
